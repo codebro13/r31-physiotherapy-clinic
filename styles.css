@@ -1,0 +1,35 @@
+/* Base typography for clear reading and high contrast */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #111827;
+  background-color: #ffffff;
+}
+
+/* Custom button with smooth CSS transition */
+.btn-teal {
+  background-color: #0f766e;
+  border: 2px solid #0f766e;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-teal:hover {
+  background-color: #115e59;
+  border-color: #115e59;
+  transform: translateY(-1px);
+}
+
+/* Media Query 1: Tablet layout adjustment */
+@media (min-width: 768px) {
+  main.container {
+    max-width: 760px;
+  }
+}
+
+/* Media Query 2: Desktop layout adjustment */
+@media (min-width: 1024px) {
+  main.container {
+    max-width: 980px;
+  }
+}
